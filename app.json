@@ -13,9 +13,9 @@
       "value": ""
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "",
       "required": true,
-      "value": ""
+      "value": "GuruBot~UWncS7Fw"
     },
     "MODE": {
       "description": "mode public or private",
@@ -24,17 +24,17 @@
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
+      "required": true,
       "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
+      "required": false,
       "value": ""
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "statusview": {
